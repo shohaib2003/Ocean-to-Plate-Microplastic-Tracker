@@ -65,7 +65,22 @@ An interactive 3D computer graphics simulation built with OpenGL/GLUT that visua
 ### **Compilation Commands**
 
 **MinGW:**
-```bash
+
 g++ main.cpp -o microplastic_sim.exe -lopengl32 -lglu32 -lfreeglut -lwinmm
 
 ## 🛠️ **Technologies Used**
+
+---
+
+## 🔧 **Installation & Compilation**
+
+### **Prerequisites**
+- Windows OS (due to `windows.h` and `mmsystem.h`)
+- OpenGL and GLUT installed
+- C++ Compiler (MinGW/GCC or Visual Studio)
+
+### **Compilation Commands**
+
+**MinGW:**
+```bash
+g++ main.cpp -o microplastic_sim.exe -lopengl32 -lglu32 -lfreeglut -lwinmm
